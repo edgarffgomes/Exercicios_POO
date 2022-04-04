@@ -1,0 +1,27 @@
+
+public class Consulta {
+	private String data;
+	private String hora;
+	private Medico med;
+	private Paciente pac;
+	
+	
+	public void setData(String d) {
+		this.data = d;
+	}
+	public String getData() {
+		return this.data;
+	}
+	public void setHora(String h) {
+		this.hora = h;
+	}
+	public String getHora() {
+		return this.hora;
+	}
+	public void setMedico(Medico m) {
+		this.med = m;
+	}
+	public Medico getMedico() {
+		return this.med;
+	}
+}

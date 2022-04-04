@@ -1,0 +1,31 @@
+
+public class Paciente {
+	private String nome;
+	private String cpf;
+	private String dataN;
+	
+	Paciente(String n, String c, String d){
+		this.setNome(c);
+		this.setCPF(c);
+		this.setData(d);
+	}
+	
+	public void setNome(String n) {
+		this.nome = n;
+	}
+	public String getNome() {
+		return this.nome;
+	}
+	public void setCPF(String c) {
+		this.cpf = c;
+	}
+	public String getCPF() {
+		return this.cpf;
+	}
+	public void setData(String d) {
+		this.dataN = d;
+	}
+	public String getData() {
+		return this.data;
+	}
+}

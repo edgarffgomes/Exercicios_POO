@@ -1,0 +1,21 @@
+public class Medico {
+	private String nome;
+	private String crm;
+	
+	Medico (String n, String c){
+		this.setNome(c);
+		this.setCRM(c);
+	}
+	public void setNome(String n) {
+		this.nome = n;
+	}
+	public String getNome() {
+		return this.nome;
+	}
+	public void setCRM(String c) {
+		this.crm = c;
+	}
+	public String getCRM() {
+		return this.crm;
+	}
+}
